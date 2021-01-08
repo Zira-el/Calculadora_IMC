@@ -7,7 +7,7 @@ var peso = pesoElement.value
 
 var imc = peso/(altura*altura);
 
-document.getElementById('imc').innerHTML = imc;
+document.getElementById('imc').innerHTML = Math.round(imc);
 }
 
 
